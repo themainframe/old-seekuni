@@ -1,0 +1,11 @@
+	img { border:0; }
+	#sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+	#sortable li { font-weight:bold; margin: 0 3px 3px 3px; padding: 0.4em; padding-top:6px; padding-left: 3px; font-size: 8pt; height: 18px; }
+	#sortable li span { position: absolute; margin-left: -1.3em; }
+	img.icon { margin-right:4px; vertical-align:middle;}
+	#feedback { font-size: 1.4em; }
+	#selectable .ui-selecting { background: #418741; background-position: 10px 15px; background-repeat:no-repeat; }
+	#selectable .ui-selected { background: url(style/icons/tick-circle-frame.png) no-repeat; background-position: 10px 15px; color: #000; }
+	#selectable {  background-position: 10px 15px; background-repeat:no-repeat; background-position: 10px 15px; list-style-type: none; margin: 0; padding: 0; width: 100%; }
+	#selectable li { background-position: 10px 15px; background-repeat:no-repeat; margin: 3px; padding: 10px; font-size: 8pt; font-weight:bold; height: 25px; padding-left: 35px; }
+	

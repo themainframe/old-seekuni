@@ -1,0 +1,116 @@
+/*
+	seekuni.com
+	Primary stylesheet
+*/
+
+
+body, div, p, td, tr, table, li, ul {
+	font-family: tahoma, verdana, helvetica;
+	font-size: 8pt;
+}
+
+body {
+	background: #336633;
+	margin:0;
+}
+
+#container {
+	width:900px;
+	margin: auto;
+}
+
+div.header {
+	margin: auto;
+	width: 900px;
+	height: 75px;
+	background: url(image/header_bar.gif);
+}
+
+a.tab {
+	display:block;
+	float:right;
+	margin-top:40px;
+	margin-right:10px;
+	width:110px;
+	height:26px;
+	background: url(image/tab.gif);
+	text-align:center;
+	color: #335500;
+	padding-top:9px;
+	font-weight:bold;
+}
+
+a.tab.selected {
+	width:110px;
+	height:26px;
+	background: url(image/tab_selected.gif);
+	color: #fff;
+}
+
+div.sidebar {
+	width: 255px;
+	float: left;
+	margin-right: 23px;
+}
+
+div.main {
+	width: 610px;
+	float: left;
+}
+
+div.button {
+	background: url(image/box_button.gif);
+	width: 220px;
+	height: 15px;
+	padding: 10px;
+	font-weight: bold;
+	margin-left: 4px;
+	cursor: pointer;
+}
+
+div.panel {
+	background: url(image/corner.gif) no-repeat #fff;
+	background-position: bottom right;
+	width: 100%;
+	padding: 5px;
+	padding-top: 8px;
+	margin-bottom: 16px;
+}
+
+span.head {
+	background: url(image/bullet.gif) no-repeat;
+	background-position: bottom left;
+	font-weight:bold;
+	color: #335500;
+	padding-left: 15px;
+	margin-left: 5px;
+}
+
+div.choice_result {
+  border: 1px solid #c3c3c3;
+  background: #f4f4f4 url(image/info_side_choice.png) no-repeat right center;
+  padding: 8px;
+  height: 78px;
+  width: 572px;
+  margin-left: 10px;
+  margin-bottom: 12px;
+}
+
+h1.choice_header {
+	font-size:12pt;
+	font-weight:bold;
+	color:#287217;
+	margin:0px;
+	margin-bottom:5px;
+}
+
+div.constraint_info {
+	padding-left: 55px;
+	background: url(icons/information.png) no-repeat;
+	background-position: 20px 6px;
+	color: #8b8b8b;
+}
+
+ui {
+	font-size:9pt;
+}
